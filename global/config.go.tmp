@@ -53,5 +53,5 @@ FAILED:
 func init() {
 	cfgIns = &Configs{}
 	LoadConfig("config.yaml")
-	cfgIns.Srv.SrvName = "$(DOMAIN).$(SERVICE)"
+	cfgIns.Srv.SrvName = "$(DOMAIN).$(LOWER-SERVICE)"
 }

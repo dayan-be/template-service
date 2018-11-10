@@ -1,1 +1,1 @@
-# template-service
+# $(DOMAIN)-$(LOWER-SERVICE)

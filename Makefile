@@ -1,5 +1,5 @@
 # This is how we want to name the binary output
-OUTPUT=$(LOWER-SERVICE)-service
+OUTPUT=$(DOMAIN)-$(LOWER-SERVICE)
 
 # These are the values we want to pass for Version and BuildTime
 GITTAG=`git describe --tags`

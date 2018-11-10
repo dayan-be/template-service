@@ -3,9 +3,9 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/dayan-be/demo-service/logic"
-	"github.com/dayan-be/demo-service/global"
-	"github.com/dayan-be/demo-service/proto"
+	"github.com/dayan-be/$(DOMAIN)-$(LOWER-SERVICE)/logic"
+	"github.com/dayan-be/$(DOMAIN)-$(LOWER-SERVICE)/global"
+	"github.com/dayan-be/$(DOMAIN)-$(LOWER-SERVICE)/proto"
 	"github.com/dayan-be/kit/log"
 	"github.com/micro/go-micro"
 	"github.com/micro/go-micro/registry"
